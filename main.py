@@ -122,7 +122,6 @@ api_key="pass your gemini api key"
 
 genai.configure(api_key=api_key)
 
-# Let's create a Gemini client
 sql_gemini = genai.GenerativeModel(
     model_name="gemini-1.5-flash",
     system_instruction=system_prompt,
